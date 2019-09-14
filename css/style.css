@@ -1,0 +1,52 @@
+* {
+    background-color: #f5f3f0;
+}
+
+.cont {
+    width: 800px;
+    padding: 20px;
+    background-color: darkgray;
+    margin: auto;
+}
+
+.cont input[type="text"] {
+    height: 30px;
+    width: 600px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.cont2 {
+    width: 800px;
+    padding: 20px;
+    background-color: darkgray;
+    margin: auto
+}
+
+.cont2>label {
+    height: 30px;
+    width: 600px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: rgb(150, 101, 101);
+    animation-delay: 20ms
+}
+
+.taskTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu Mono;
+    border: 2px solid rgb(139, 166, 206);
+    border-radius: 5px;
+    height: 35px;
+    margin: 5px;
+}

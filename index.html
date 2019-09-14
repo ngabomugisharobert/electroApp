@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <title>My Todo List</title>
+</head>
+
+<body>
+    <div class="cont">
+        <input type="text" placeholder="Enter your task" />
+        <button>Add</button><br />
+        <input type="text" placeholder="Filter Tasks" />
+        <button>Filter</button>
+    </div>
+
+    <div class="taskTitle">
+        <h1>My Task</h1>
+    </div>
+    <div class="cont2">
+        <label>Task</label>
+        <button>X</button>
+    </div>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
-  </body>
+</body>
+
 </html>
